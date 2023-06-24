@@ -1,0 +1,7 @@
+# indicaremos en este archivo, los datos que ignoraremos a la hora de subir nuestro proyecto en github
+
+# ignoramos todos los archivos txt desntro de la carpeta salida
+/salida/*.txt
+
+# al descargar nuestro proyecto en otro ordenador reparamos esta carpeta con npm install
+node_modules/
