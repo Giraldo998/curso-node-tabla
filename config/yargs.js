@@ -15,7 +15,7 @@ const argv = require('yargs')
                 .option('h',{
                     alias:'hasta',
                     type: 'number',
-                    // default: 10,
+                    default: 10,
                     describe: 'define el limite del multiplicador de nuestra multiplicacion'
                 })
                 .check((argv, options)=>{
